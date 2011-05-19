@@ -57,8 +57,6 @@ public abstract class DataApplication extends DataApplicationBase implements Hib
 		if (isDataBrowserAllowed())
 			mountDataBrowser();
 		// JAKE WUZ HERE!
-		// JAKE CAME BACK!
-		// JAKE AGAIN!
 	}
 	
 	/**
