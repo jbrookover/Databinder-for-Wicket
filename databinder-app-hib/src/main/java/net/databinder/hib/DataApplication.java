@@ -56,7 +56,7 @@ public abstract class DataApplication extends DataApplicationBase implements Hib
 		buildHibernateSessionFactory(null);
 		if (isDataBrowserAllowed())
 			mountDataBrowser();
-		// Whee!
+		// JAKE WUZ HERE!
 	}
 	
 	/**
