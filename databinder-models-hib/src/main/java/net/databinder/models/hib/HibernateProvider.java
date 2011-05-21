@@ -199,8 +199,8 @@ public class HibernateProvider<T> extends PropertyDataProvider<T> {
 		if (criteriaBuilder != null)
 			criteriaBuilder.buildUnordered(crit);
 		crit.setProjection(Projections.rowCount());
-		Integer size = (Integer) crit.uniqueResult();
-		return size == null ? 0 : size;
+		Number size = (Number) crit.uniqueResult();
+		return size == null ? 0 : size.intValue();
 	}
 
 
